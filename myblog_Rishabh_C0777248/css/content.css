@@ -1,0 +1,559 @@
+/* styles for the body of the pages */
+body
+{
+    background-image: linear-gradient(white, #34495E);
+    background-color: black;
+    font-family: verdana;
+    border: solid 10px;
+    border-color: #34495E ;
+    border-radius: 7px;
+}
+
+/*As per the mobile-first strategy these are the media queris for mobile viewport */
+
+/* styles for the container id */
+#container
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}   
+/* styles for the mobile class */
+.mobile
+{
+    display: none;
+}
+.dekstop{
+    display: inline;
+}
+
+/* styles for the logo in the header div */
+header
+{
+    text-align: center;
+
+}
+/* styles for the table */
+table{
+    padding: 10px;
+    float: right;
+    margin-right: 20em;
+    margin-top: 4em;
+    float: right;
+}
+/* styles for the nav bar containing the links */
+nav
+{
+    margin-top: -1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* styles specifies the padding and margins of the unordered list in nav */
+nav ul
+{
+    padding: 0;
+    margin: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+/* styles for the li in nav */
+nav li
+{
+    background-color: black ;
+    border-radius: 2em;
+    margin: 0.3em;
+    padding: 0.4em;
+    list-style-type: none;
+}
+
+/* styles for the hyperlinks in the nav bar */
+nav li a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* styles for the main div containing the page information */
+main
+{
+    background-color: #E67E24;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 5%;
+    padding: 1em;
+    border-radius: 2em 0 2em 0;
+    opacity: 85%;
+    
+}
+
+/* styles for the footer */
+footer
+{
+    font-size: 0.7em;
+    margin-top: 2em;
+    text-align: center;
+    color: white;
+}
+
+/* styles for anchor tags inside footer element */
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/* styles for the tablet class */
+.tablet
+{
+    display: none;
+}
+
+/* styles to have fluid images */
+img
+{
+    max-width: 200px;
+    border-radius: 150px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+figure img{
+	float: right;
+	margin-top: -2em;
+	margin-bottom: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;	
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px; 
+}
+
+
+/* styles for anchor tags inside main element */
+main a
+{
+    background-color: #F2F4F4 ;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* styles for the aside element */
+ aside{
+     right: 100px;
+     background-color: powderblue; 
+     height: 50%;
+     width: 65%;
+     top: 0;
+     padding-top: 20px;
+     box-shadow: 1em 1em 10em 1px;
+ }
+ /*styles for the table tag*/
+table{
+    color: black;
+    margin-right: 40%;
+    margin-top: -1em;
+
+}
+/*styles for the table headings and rows tag*/
+tr,th{
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+}
+/*styles for the headiung 2 */
+h2{
+	float: right;
+	margin-right: 10em;
+}
+
+/*styles for the unordered list of aside tag*/
+aside ul{
+	margin-left: 0;	
+	margin-right: 0;
+}
+/*styles for the video from youtube*/
+iframe{
+	float: right;
+	margin-right: 0;
+	width: 50%;
+	height: 50%;
+}
+
+
+
+
+
+
+
+
+/* Media query for tablet viewport target - minimum width: 720px */
+
+@media only screen and (min-width:720px)
+{
+    body{
+        background-color: black;
+        font-family: verdana;
+        border: solid 10px;
+        border-color: #34495E ;
+        border-radius: 7px;
+
+    }
+    #container
+    {
+        background-color: #FAE5D3  ;
+    }
+    /* styles specifies horizontal display for navigation links */
+    nav li
+    {
+        display: block;
+        float: left;
+        width: 18%;
+        padding: 10px;
+        border-spacing: 10px;
+        border-top-left-radius: 10px;
+        background-color: #F5CBA7 ;
+    }
+
+    /* styles for main */
+    main
+    {
+        margin-top: 4em;
+        border-radius: 10px;
+
+    }
+/*styles for the aside tag*/
+    aside{
+        font-style: italic;
+    }
+
+    /* styles for h1 elements */
+    h2
+    {
+        text-align: left;
+        float: left;
+        box-shadow: 1em 1em 1em 1px;
+        color: white;
+        margin-right: 1em;
+    }
+    /*styles for the table tag*/
+    table{
+        display: inline;
+        padding: 10px;
+        float: right;
+        margin-top: 4em;
+        color: black;
+        margin-right: 40%;
+        margin-top: -1em;
+    }
+
+    /* styles for mobile classs */
+    .mobile
+    {
+        display: none;
+    }
+
+    /* styles for desktop class */
+    .desktop
+    {
+        display: inline;
+    }
+
+    /* styles for tablet class */
+    .tablet
+    {
+        display: block;
+        margin-top: -3em;
+        margin-bottom: -1em;
+    }
+
+    
+    
+    /* styles for the section element */
+    section
+    {
+        padding-bottom: 3em;
+    }
+
+
+
+    /* styles for the anchor element in the section element */
+    section a
+    {
+        background-color: transparent;
+        color: #1d1d1c;
+        font-weight: normal;
+        padding: 0;
+        text-decoration: underline;
+    }
+
+    
+    /* styles for the aside element */
+    section
+    {
+        background-color: white;
+        border-radius: 0 5em 5em 5em;
+        padding: 1.1em;
+        box-shadow: 0 0 0.5em #4c4f4d;
+        margin: 0.75em;
+    }
+    /*styles for the aside tag*/
+      aside{
+     right: 0;
+     background-color: powderblue; 
+     height: 50%;
+     width: 50%;
+     z-index: 1;
+     top: 0;
+     overflow-x: hidden;
+     padding-top: 20px;
+ }
+ /*styles for the unordered list of the aside tag*/
+ aside ul{
+	margin-left: 0;	
+	margin-right: 0;
+}
+/*styles for the table tag*/
+ table{
+    color: black;
+    margin-right: 40%;
+    margin-top: -1em;
+
+}
+/*styles for the table rows and heading tag*/
+ tr,th{
+	padding: 2em;
+	border-style: solid;
+	border-color: black;
+}
+/*styles for the unordered list*/
+ul{
+
+
+	margin-top: 10px;
+}
+/*styles for the image in figure tag*/
+figure img{
+	float: right;
+	margin-top: -2em;
+	margin-bottom: 0;
+	border-top-left-radius: 0;
+	border-bottom-right-radius: 0;	
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px; 
+}
+/*styles for the video from youtube*/
+iframe{
+	float: right;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query for desktop view port */
+@media only screen and (min-width: 1080px)
+{
+    /* styles for body */
+    body
+    {
+        background-color: black;
+        font-family: verdana;
+        border: solid 10px;
+        border-color: #34495E ;
+        border-radius: 7px;
+    }
+
+    /* styles for container id */
+    #container
+    {
+        background-color: #2980B9 ;
+        white-space: 2px;
+    }
+    .edu{
+    	float: right;
+    	
+    }
+    /*styles for the image tag*/
+    img
+    {
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-bottom: -10px;
+    }
+
+    /* styles for the header */
+    header
+    {
+        text-align: left;
+    }
+
+    /* styles for nav */
+    nav
+    {
+        float: right;
+        margin-top: -7em;
+        margin-right: 3 em;
+        width: 65%;
+
+    }
+    /*styles for the table tag*/
+    table{
+        padding: 10px;
+        float: right;
+        margin-right: 20em;
+        margin-top: 4em;
+    }
+
+    /* styles lis in nav for links */
+    nav ol
+    {
+        margin: 1em;
+        margin-bottom: 2em;
+        padding-left: 0.5%;
+        padding-right: 10px;
+
+    }
+
+    /* styles for the list itet5ms in nav */
+    nav li
+    {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 10;
+        width: 20%;
+        background-color: white;
+    }
+
+    /* styles for anchor tag inside nav li */
+    nav li a
+    {
+        display: inline-block;
+        padding: 0.7em;
+        text-shadow: 0.05em 0.05em #3d3d35;
+        font-style: unset;
+    }
+
+    /* styles for pseudo-classes */
+    /* when the link is not visited */
+    nav li a:link
+    {
+        color: black;
+    }
+
+    /* when the link is visible */
+    nav li a:visited
+    {
+        color: #ccccff;
+    }
+
+    /* pseudo class when hovering over the link */
+    nav li a:hover
+    {
+        color: #9d9d93;
+        font-style: italic;
+    }
+
+    /* pseudo class when link clicked */
+    nav li a:active
+    {
+        color: red;
+    }
+
+    /* styles for the main */
+    main
+    {
+        background-color: #D0D3D4 ;
+        font-color: red;
+    }
+
+    /* styles for paragraphs inside main */
+    main p
+    {
+        color: black;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    /* styles for h1 elements */
+    h2
+    {
+        color: white;
+        font-style: italic;
+    }
+
+    
+    /* styles for the footer */
+    footer
+    {
+        background-color: #2a2a2a;
+        margin-top: -0.2em;
+        padding: 2em;
+    }
+    /*styles for the aside tag*/
+    aside{
+     right: 100px;
+     background-color: powderblue; 
+     height: 50%;
+     width: 50%;
+     top: 0;
+     padding-top: 20px;
+     box-shadow: 1em 1em 10em 1px;
+ }
+ /*styles for the unordered list of aside tag*/
+ aside ul{
+	margin-left: 0;	
+	margin-right: 0;
+}
+/*styles for the table tag*/
+ table{
+    color: black;
+    margin-right: 40%;
+    margin-top: -1em;
+
+}
+/*styles for the table rows and heading tag*/
+ tr,th{
+	padding: 10px;
+	border-style: solid;
+	border-color: black;
+}
+/*styles for the image in figure tag*/
+figure img{
+	float: right;
+	border: solid;	
+	margin-top: 0;
+}
+/*styles for the video from youtube*/
+iframe{
+	float: right;
+	margin-right: 0;
+}
+
+}
